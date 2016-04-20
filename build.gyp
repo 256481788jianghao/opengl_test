@@ -13,6 +13,20 @@
                 '-lGLU -lGL -lglut'
             ],
             'conditions':[]
+        },
+        {
+            'target_name':'test_vertex',
+            'type':'executable',
+            'dependencies':[],
+            'defines':[],
+            'include_dirs':[],
+            'sources':[
+                'test_vertex/test_vertex.c',
+            ],
+            'libraries':[
+                '-lGLU -lGL -lglut'
+            ],
+            'conditions':[]
         }
     ],
 }
