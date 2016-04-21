@@ -27,6 +27,34 @@
                 '-lGLU -lGL -lglut'
             ],
             'conditions':[]
+        },
+        {
+            'target_name':'triangle',
+            'type':'executable',
+            'dependencies':[],
+            'defines':[],
+            'include_dirs':[],
+            'sources':[
+                'test_30_example/triangle.cpp',
+            ],
+            'libraries':[
+                '-lGLU -lGL -lglut'
+            ],
+            'conditions':[]
+        },
+        {
+            'target_name':'viewport',
+            'type':'executable',
+            'dependencies':[],
+            'defines':[],
+            'include_dirs':[],
+            'sources':[
+                'test_30_example/viewport.cpp',
+            ],
+            'libraries':[
+                '-lGLU -lGL -lglut'
+            ],
+            'conditions':[]
         }
     ],
 }
